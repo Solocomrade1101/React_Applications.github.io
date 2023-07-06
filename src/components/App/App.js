@@ -1,5 +1,5 @@
 import React from 'react';
-import app from'./App.module.css';
+import app from './App.module.css';
 import { BrowserRouter as Router, Switch, Route, Routes, } from 'react-router-dom'
 
 import Header from '../Header/Header'
@@ -25,23 +25,23 @@ function App(props) {
       text: "Игровой автомат основан на классовых компонентах с методами жизненного цикла. Так же добавлен аудио-файл при выигрыше, поэтому не пугайтесь). Эффект прокрутки осуществлен с помощью рандомного изменения background-position с применеием разного времени для каждого лота. ",
       component: <Casino />
     },
-    
+
     {
       text: "Приложение крестики-нолики, рассчитано для игры на двоих. Функция, которая бы исполняла роль второго игрока не предусмотрена. Сам движок основан на классовых компонентах с добавлением небольшой 3D-анимациии.  ",
       component: <TicTacToe />
     },
 
   ]
-  return(
+  return (
     <div className={app.wrapper} >
       <div className={app.container}>
         <Header />
         <Navigation />
         <Routes>
-          <Route path='/'  element={<SnakeBlock text={content[0].text}  component={content[0].component}/>}/>
-          <Route path='/calculator'  element={<SnakeBlock text={content[1].text}  component={content[1].component}/>}/>
-          <Route path='/casino'  element={<SnakeBlock text={content[2].text} component={content[2].component}/>}/>
-          <Route path='/tictactoe'  element={<SnakeBlock text={content[3].text}  component={content[3].component}/>}/>
+          <Route path='/1' element={<SnakeBlock text={content[0].text} component={content[0].component} />} />
+          <Route path='/calculator' element={<SnakeBlock text={content[1].text} component={content[1].component} />} />
+          <Route path='/casino' element={<SnakeBlock text={content[2].text} component={content[2].component} />} />
+          <Route path='/tictactoe' element={<SnakeBlock text={content[3].text} component={content[3].component} />} />
 
 
         </Routes>
@@ -52,7 +52,7 @@ function App(props) {
       </div>
     </div>
   )
-  
+
 }
 
 export default App;
