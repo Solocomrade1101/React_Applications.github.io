@@ -30,7 +30,6 @@ function App(props) {
       text: "Приложение крестики-нолики, рассчитано для игры на двоих. Функция, которая бы исполняла роль второго игрока не предусмотрена. Сам движок основан на классовых компонентах с добавлением небольшой 3D-анимациии.  ",
       component: <TicTacToe />
     },
-
   ]
   return (
     <div className={app.wrapper} >
@@ -38,7 +37,7 @@ function App(props) {
         <Header />
         <Navigation />
         <Routes>
-          <Route path='/1' element={<SnakeBlock text={content[0].text} component={content[0].component} />} />
+          <Route  path='*' element={<SnakeBlock text={content[0].text} component={content[0].component} />} />
           <Route path='/calculator' element={<SnakeBlock text={content[1].text} component={content[1].component} />} />
           <Route path='/casino' element={<SnakeBlock text={content[2].text} component={content[2].component} />} />
           <Route path='/tictactoe' element={<SnakeBlock text={content[3].text} component={content[3].component} />} />
