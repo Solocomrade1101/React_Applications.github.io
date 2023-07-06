@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React_Applications.github.io/static/css/main.85b18146.css",
-    "main.js": "/React_Applications.github.io/static/js/main.5e6cb341.js",
+    "main.js": "/React_Applications.github.io/static/js/main.7032e501.js",
     "static/media/lots.png": "/React_Applications.github.io/static/media/lots.84f38a23ad9518c7d460.png",
     "static/media/Frame.png": "/React_Applications.github.io/static/media/Frame.d5320535e5377a8b8218.png",
     "static/media/TorusOutline-Bold.ttf": "/React_Applications.github.io/static/media/TorusOutline-Bold.70c608e29b964c8d787f.ttf",
@@ -19,10 +19,10 @@
     "static/media/title.svg": "/React_Applications.github.io/static/media/title.dfa672f3d3a7588c429d.svg",
     "index.html": "/React_Applications.github.io/index.html",
     "main.85b18146.css.map": "/React_Applications.github.io/static/css/main.85b18146.css.map",
-    "main.5e6cb341.js.map": "/React_Applications.github.io/static/js/main.5e6cb341.js.map"
+    "main.7032e501.js.map": "/React_Applications.github.io/static/js/main.7032e501.js.map"
   },
   "entrypoints": [
     "static/css/main.85b18146.css",
-    "static/js/main.5e6cb341.js"
+    "static/js/main.7032e501.js"
   ]
 }
