@@ -1,0 +1,90 @@
+:root{
+  --index: calc(1vw + 1vh);
+  --indexR: calc(1/(1vw + 1vh))
+}
+.block{
+  padding: calc(var(--index) * 1) 0;
+  width: 90%;
+  margin: 0 auto;
+}
+@media (max-width:1000px){
+  .block{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #a3a3a3;
+    border-radius: 30px;
+    width: 60%;
+  }
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(7rem, auto) repeat(5, calc(var(--index) * 3.6));
+  gap: 8px;
+}
+@media (max-width:1000px){
+  .grid{
+    padding: 5px;
+  }
+}
+.grid > button{
+  border-radius: 100px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #22222B;
+  color: #ffffff;
+font-size: calc(var(--index) * 1);
+font-family: "TT Firs Neue";
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+transition: all 0.2s ease;
+}
+.grid button:nth-child(2){
+  background: #573E5A;
+}
+.grid button:last-child{
+  background: #2A4678;
+}
+.grid button:nth-child(4n){
+  background: #40465B;
+}
+.grid button:nth-child(3){
+  background: #40465B;
+}
+.grid > button:hover{
+  opacity: .7;
+}
+.output{
+  grid-column: 1 / -1;
+  background: #141317;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  padding: 0 calc(var(--index) * 0.8);
+  word-wrap: break-word;
+  word-break: break-all;
+  margin-bottom:  calc(var(--index) * 1);
+  color: #FFF;
+  font-size: calc(var(--index) * 1.5);
+  font-family: "TT Firs Neue";
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  /* line-height: calc(var(--index) * 1.4); */
+}
+.previous_operand{
+  color: rgba(255, 255, 255, 0.74);
+  font-size: calc(var(--index) * 1);
+  margin-bottom: calc(var(--index) * 0.7);
+}
+.current_operand{
+  color: rgb(255, 255, 255);
+  font-size: calc(var(--index) * 1.5);
+}
+.span_two{
+  grid-column: span 2;
+  background:#573E5A;;
+}

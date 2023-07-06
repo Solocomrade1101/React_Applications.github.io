@@ -1,0 +1,52 @@
+:root{
+  --index: calc(1vw + 1vh);
+}
+.block{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.block div:last-child{
+  margin-right: 0;
+}
+.link{
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #FFF;
+  margin-right: calc(var(--index) * 0.8);
+  width: calc(22% + 25px);
+  transition: all 0.3s ease;
+}
+.link:hover{
+  background: #ffffff45;
+}
+
+.nav_link{
+  color: #FFF;
+  font-size: calc(var(--index) * 0.8);
+  font-family: "TT Firs Neue";
+  line-height: 24px;
+  padding: calc(var(--index) * 0.7) 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+@media (max-width:1000px){
+  .nav_link{
+  font-size: calc(var(--index) * 1.2);
+
+  }
+}
+.link a{
+  
+}
+@media (max-width:1000px){
+  .link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
