@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React_Applications.github.io/static/css/main.85b18146.css",
+    "main.js": "/React_Applications.github.io/static/js/main.5e6cb341.js",
+    "static/media/lots.png": "/React_Applications.github.io/static/media/lots.84f38a23ad9518c7d460.png",
+    "static/media/Frame.png": "/React_Applications.github.io/static/media/Frame.d5320535e5377a8b8218.png",
+    "static/media/TorusOutline-Bold.ttf": "/React_Applications.github.io/static/media/TorusOutline-Bold.70c608e29b964c8d787f.ttf",
+    "static/media/TTFirsNeue-Medium.ttf": "/React_Applications.github.io/static/media/TTFirsNeue-Medium.c40de9018ca2adfa67af.ttf",
+    "static/media/TTFirsNeue-Light.ttf": "/React_Applications.github.io/static/media/TTFirsNeue-Light.fbe65c7a237ab24e25a3.ttf",
+    "static/media/TTFirsNeue-DemiBold.ttf": "/React_Applications.github.io/static/media/TTFirsNeue-DemiBold.3000b23d43b9567b832f.ttf",
+    "static/media/TTFirsNeue-Bold.ttf": "/React_Applications.github.io/static/media/TTFirsNeue-Bold.0e5c24bc12f0df7821a9.ttf",
+    "static/media/TTFirsNeue-Regular.ttf": "/React_Applications.github.io/static/media/TTFirsNeue-Regular.7925664aab1bc42bbc9b.ttf",
+    "static/media/corona.png": "/React_Applications.github.io/static/media/corona.0294d5aeb94f36b4a50d.png",
+    "static/media/Ellipse-right.png": "/React_Applications.github.io/static/media/Ellipse-right.12111455bb4a4a1ed5ab.png",
+    "static/media/Ellipse-left.png": "/React_Applications.github.io/static/media/Ellipse-left.ce92f0d0b87045783879.png",
+    "static/media/instruct.svg": "/React_Applications.github.io/static/media/instruct.9093273b5d3a447833b8cd2dda017d49.svg",
+    "static/media/React.svg": "/React_Applications.github.io/static/media/React.1bc8ebd61ed132c88577df5ed77564b9.svg",
+    "static/media/GameOver.svg": "/React_Applications.github.io/static/media/GameOver.fbe84862b2f7a52a21b22d4eb3c8670d.svg",
+    "static/media/title.svg": "/React_Applications.github.io/static/media/title.dfa672f3d3a7588c429d.svg",
+    "index.html": "/React_Applications.github.io/index.html",
+    "main.85b18146.css.map": "/React_Applications.github.io/static/css/main.85b18146.css.map",
+    "main.5e6cb341.js.map": "/React_Applications.github.io/static/js/main.5e6cb341.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85b18146.css",
+    "static/js/main.5e6cb341.js"
+  ]
+}
