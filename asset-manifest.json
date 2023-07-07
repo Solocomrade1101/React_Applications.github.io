@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React_Applications.github.io/static/css/main.85b18146.css",
-    "main.js": "/React_Applications.github.io/static/js/main.7e24cfe2.js",
+    "main.css": "/React_Applications.github.io/static/css/main.f7c9d465.css",
+    "main.js": "/React_Applications.github.io/static/js/main.9129dcbe.js",
     "static/media/lots.png": "/React_Applications.github.io/static/media/lots.84f38a23ad9518c7d460.png",
     "static/media/Frame.png": "/React_Applications.github.io/static/media/Frame.d5320535e5377a8b8218.png",
     "static/media/TorusOutline-Bold.ttf": "/React_Applications.github.io/static/media/TorusOutline-Bold.70c608e29b964c8d787f.ttf",
@@ -18,11 +18,11 @@
     "static/media/GameOver.svg": "/React_Applications.github.io/static/media/GameOver.fbe84862b2f7a52a21b22d4eb3c8670d.svg",
     "static/media/title.svg": "/React_Applications.github.io/static/media/title.dfa672f3d3a7588c429d.svg",
     "index.html": "/React_Applications.github.io/index.html",
-    "main.85b18146.css.map": "/React_Applications.github.io/static/css/main.85b18146.css.map",
-    "main.7e24cfe2.js.map": "/React_Applications.github.io/static/js/main.7e24cfe2.js.map"
+    "main.f7c9d465.css.map": "/React_Applications.github.io/static/css/main.f7c9d465.css.map",
+    "main.9129dcbe.js.map": "/React_Applications.github.io/static/js/main.9129dcbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.85b18146.css",
-    "static/js/main.7e24cfe2.js"
+    "static/css/main.f7c9d465.css",
+    "static/js/main.9129dcbe.js"
   ]
 }
